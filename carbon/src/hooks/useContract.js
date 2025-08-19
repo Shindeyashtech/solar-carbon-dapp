@@ -1,6 +1,14 @@
-import { useState, useEffect } from "react";
+// src/hooks/useContract.js
 import { ethers } from "ethers";
 import { CONTRACT_ADDRESS, CONTRACT_ABI } from "../contracts/CarbonCredit.js";
+
+// A helper to get the contract instance
+export function getContract(providerOrSigner) {
+  return new ethers.Contract(CONTRACT_ADDRESS, CONTRACT_ABI, providerOrSigner);
+}
+
+// Hook version (optional)
+import { useState, useEffect } from "react";
 
 export function useContract() {
   const [contract, setContract] = useState(null);
