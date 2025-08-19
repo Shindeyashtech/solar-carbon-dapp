@@ -5,11 +5,7 @@ import NFTGallery from "./components/NFTGallery";
 import { useContract } from "./hooks/useContract";
 import { CONTRACT_ADDRESS, CONTRACT_ABI } from "./contracts/CarbonCredit.js";
 
-// import ConnectWallet from "./components/ConnectWallet";
-// import Dashboard from "./components/Dashboard";
-// import NFTGallery from "./components/NFTGallery";
-// import { CONTRACT_ADDRESS, CONTRACT_ABI } from "./contracts/CarbonCredit.js";
-
+ 
 function App() {
   const [account, setAccount] = useState(null);
   const [energyWh, setEnergyWh] = useState(0);
