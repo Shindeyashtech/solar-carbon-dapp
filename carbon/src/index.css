@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
  
-@import 'flowbite';
-
+ 
 /* You can still keep some custom global styles if you want */
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
