@@ -1,5 +1,5 @@
 // src/contracts/CarbonCredit.js
-export const CONTRACT_ADDRESS = "0xYourContractAddressHere";
+export const CONTRACT_ADDRESS = "0x00eb7C1F79f9c7B5a247beFC389C1e807a2B71dE";
 
 export const CONTRACT_ABI = [
   "function getSiteCredits(uint256 siteId) view returns (uint256 energyWh, uint256 lastUpdated)",
