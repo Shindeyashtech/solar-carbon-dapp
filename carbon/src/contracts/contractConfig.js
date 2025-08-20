@@ -1,7 +1,7 @@
 // src/contracts/contractConfig.js
 
 // Replace with your deployed contract address
-export const CONTRACT_ADDRESS = "0xYourContractAddressHere";
+export const CONTRACT_ADDRESS = "0x00eb7C1F79f9c7B5a247beFC389C1e807a2B71dE";
 
 // Replace with your ABI
 export const CONTRACT_ABI = [
