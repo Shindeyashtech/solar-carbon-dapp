@@ -5,7 +5,7 @@ export default function Dashboard({ energyWh, credits, fetchCredits }) {
 
       <div className="space-y-2">
         <p className="text-lg font-semibold">Energy Generated: <span className="text-green-600">{energyWh} Wh</span></p>
-        <p className="text-lg font-semibold">Carbon Credits: <span className="text-blue-600">{credits}</span></p>
+        <p className="text-lg font-semibold">Carbon Credits:<span className="text-blue-600">{credits}</span></p>
       </div>
 
       <button
